@@ -374,13 +374,13 @@ export interface ApiStudentListStudentList extends Schema.CollectionType {
     draftAndPublish: false;
   };
   attributes: {
-    Stundent_no: Attribute.String;
-    Last_name: Attribute.String;
+    student_no: Attribute.String;
+    last_name: Attribute.String;
     first_name: Attribute.String;
     middle_name: Attribute.String;
     course: Attribute.String;
-    Section: Attribute.String;
-    Year: Attribute.String;
+    section: Attribute.String;
+    year: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

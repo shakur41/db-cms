@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Stundent_no": {
+    "student_no": {
       "type": "string"
     },
-    "Last_name": {
+    "last_name": {
       "type": "string"
     },
     "first_name": {
@@ -27,10 +27,10 @@
     "course": {
       "type": "string"
     },
-    "Section": {
+    "section": {
       "type": "string"
     },
-    "Year": {
+    "year": {
       "type": "string"
     }
   }
